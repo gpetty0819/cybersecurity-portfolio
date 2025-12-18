@@ -1,0 +1,18 @@
+# Phase 1 – Identity & Access Hardening
+
+## Objectives
+- Reduce risk of account takeover
+- Limit blast radius of compromised credentials
+- Improve auditability and control
+
+## Key Actions
+- Enforce MFA across cloud services
+- Separate administrative and standard user accounts
+- Restrict RDP access to required systems only
+- Deploy a centralized password manager
+
+## Success Criteria
+- MFA enforced for all administrative accounts
+- No daily-use accounts with administrative privileges
+- Reduced RDP exposure
+- Secure credential storage in place
