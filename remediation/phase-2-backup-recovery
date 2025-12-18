@@ -1,0 +1,15 @@
+# Phase 2 – Backup & Recovery
+
+## Objectives
+- Ensure data survivability
+- Protect against ransomware and accidental deletion
+- Enable recovery without primary account access
+
+## Backup Strategy
+- Primary cloud data remains operational
+- Automated secondary cloud backups via an independent provider
+- Encrypted offline/offsite backups on rotating media
+- Regular restore testing
+
+## Key Principle
+Cloud services are not backups; independent recovery paths are required.
