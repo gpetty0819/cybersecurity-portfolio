@@ -1,0 +1,19 @@
+# Assessment Methodology
+
+The assessment followed a non-intrusive, discovery-first methodology designed to avoid operational disruption.
+
+## Techniques Used
+- Physical asset walkthrough
+- Workflow observation
+- Identity and access review
+- Internal-only network reconnaissance
+- Endpoint configuration sampling
+- Backup and recovery posture review
+- Data handling observation
+
+## Guiding Principles
+- Do not disrupt production workflows
+- Prioritize business survivability
+- Reduce risk before optimizing controls
+- Sequence remediation to preserve uptime
+- Avoid over-hardening in an SMB context
