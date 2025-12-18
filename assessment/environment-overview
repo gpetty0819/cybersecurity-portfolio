@@ -1,0 +1,24 @@
+# Environment Overview
+
+## Business Context
+- SMB warehouse and office environment
+- Cloud-first operations
+- Remote access to systems and files
+- No dedicated IT or security staff
+- Single technical decision-maker
+
+## Technology Summary
+- Cloud email and productivity platform
+- Cloud file storage used as primary working location
+- Windows-based endpoints
+- Consumer-grade network infrastructure
+- Network-connected printers and peripherals
+- Remote Desktop Protocol (RDP) in use
+- No VPN currently deployed
+
+## Data Types Observed
+- Customer contact information (names, email addresses, phone numbers, shipping addresses)
+- Employee contact information
+- Operational documents
+
+No payment card data or highly sensitive personal data was observed.
