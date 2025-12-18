@@ -1,0 +1,14 @@
+# Phase 2.5 – PII Containment & Protection
+
+## Scope
+Customer and employee contact PII including names, email addresses, phone numbers, and shipping addresses.
+
+## Controls Implemented
+- Identification of PII storage locations
+- Definition of authoritative storage locations
+- Access-based restrictions
+- Reduction of local data duplication
+- Device-level encryption for endpoints
+
+## Rationale
+Controls were selected to provide reasonable protection proportional to data sensitivity without disrupting business workflows.
