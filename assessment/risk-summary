@@ -1,0 +1,18 @@
+# Risk Summary
+
+## High-Level Risk Themes
+1. Identity and access control weaknesses
+2. RDP usage without encapsulation
+3. Lack of automated backup and recovery
+4. Flat network architecture
+5. Unencrypted customer contact PII at rest
+
+## Risk Prioritization Approach
+Risks were ranked based on:
+- Business impact
+- Likelihood of exploitation
+- Ease of remediation
+- Potential for cascading failure
+
+## Key Insight
+Identity functions as the effective perimeter in cloud-first SMB environments, making IAM and backup resilience the highest priority remediation areas.
