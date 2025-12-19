@@ -1,0 +1,93 @@
+# Phase 3 – Network & Remote Access Hardening
+
+## Objectives
+- Reduce lateral movement risk within the internal network
+- Eliminate unnecessary remote access exposure
+- Improve containment in the event of endpoint compromise
+- Modernize basic network security controls appropriate to an SMB environment
+
+## Scope
+- Network edge device (router/firewall)
+- Wireless access
+- Internal network segmentation (lightweight)
+- Remote Desktop Protocol (RDP) usage
+- Network-connected peripherals
+
+This phase is sequenced after identity hardening and backup implementation to reduce operational and rollback risk.
+
+---
+
+## Key Risks Addressed
+- Flat internal network enabling unrestricted lateral movement
+- Legacy wireless security configurations
+- Remote desktop access without encapsulation
+- Peripheral devices exposed to user networks
+- Default or weak network device credentials
+
+---
+
+## Planned Remediation Actions
+
+### 1. Network Edge Hardening
+- Change default administrative credentials
+- Disable unnecessary services (e.g., UPnP)
+- Ensure no unintended external port forwarding exists
+- Confirm firmware is up to date
+
+**Outcome:** Reduced exposure at the network perimeter.
+
+---
+
+### 2. Wireless Security Improvements
+- Upgrade wireless security to WPA3 where supported
+- Separate guest and internal wireless networks
+- Restrict management access to trusted devices only
+
+**Outcome:** Reduced risk of unauthorized internal access via wireless networks.
+
+---
+
+### 3. RDP Containment
+- Identify systems requiring RDP access
+- Disable RDP on systems where not required
+- Restrict RDP access to administrative accounts only
+- Ensure RDP is not exposed externally
+
+Future consideration:
+- Encapsulation of RDP via VPN or zero-trust access solution
+
+**Outcome:** Reduced remote access attack surface.
+
+---
+
+### 4. Internal Segmentation (Lightweight)
+- Logically separate:
+  - User endpoints
+  - Network printers and peripherals
+  - Guest devices
+- Prevent direct access between segments where not required
+
+**Outcome:** Reduced blast radius in the event of compromise.
+
+---
+
+### 5. Peripheral Device Isolation
+- Disable legacy services on printers (e.g., FTP, Telnet)
+- Restrict printer administration interfaces
+- Limit printer access to required systems only
+
+**Outcome:** Elimination of common lateral movement footholds.
+
+---
+
+## Success Criteria
+- No default credentials on network devices
+- No externally exposed RDP services
+- Wireless networks appropriately segmented
+- Reduced internal trust relationships
+- Peripheral devices isolated from user endpoints
+
+---
+
+## Notes
+Network remediation actions are intentionally scoped to avoid overengineering and to preserve operational stability in an SMB environment.
